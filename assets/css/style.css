@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  /* --pri-color: #ec704b;
+  --sec-color: #f5f378;    ;
+  --ter-color: #ffffff;
+  --qua-color: #dcc1ff;
+  --qui-color: #5551fe;
+  --sen-color: #171717; */
+  --size-1: 1rem; /* 16px */
+  --size-2: 1.25rem; /* 20px */
+  --size-3: 1.5rem; /* 24px */
+  --size-4: 1.75rem; /* 28px */
+  --size-5: 2rem; /* 32px */
+  --size-6: 2.25rem; /* 36px */
+  --size-7: 2.5rem; /* 40px */
+  --size-8: 2.75rem; /* 44px */
+  --size-9: 3rem; /* 48px */
+  --size-10: 3.25rem; /* 52px */
+  --size-11: 3.5rem; /* 56px */
+  --size-12: 3.75rem; /* 60px */
+  --size-13: 4rem; /* 64px */
+  --global-font: 'Roboto', sans-serif;
+  /* --rounded-radius: 4rem; */
+}
+
+/* flexible and reusable styling */
+
+* {
+  font-family: var(--global-font);
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: var(--size-2);
+}
+
+.container {
+  width: 66.66%;
+  border: 1px solid red; /* TEMPORARY */
+}
+
+/* header styling */
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+/* nav styling */
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-2) var(--size-7);
+}
+
+
+
