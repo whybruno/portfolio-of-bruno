@@ -49,6 +49,13 @@ li {
   border: 1px solid red; /* TEMPORARY */
 }
 
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-2) var(--size-7);
+}
+
 /* header styling */
 
 header {
@@ -61,12 +68,20 @@ header {
 
 /* nav styling */
 
-nav {
+/* under-header styling */
+
+#under-header {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  padding: var(--size-2) var(--size-7);
+  justify-content: center;
+  margin: var(--size-2) auto;
+  border: 1px solid grey; /* TEMPORARY */
 }
 
+#under-header figure {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid grey; /* TEMPORARY */
+}
 
 
