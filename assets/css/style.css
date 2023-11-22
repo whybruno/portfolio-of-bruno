@@ -84,4 +84,32 @@ header {
   border: 1px solid grey; /* TEMPORARY */
 }
 
+/* roadmap styling */
 
+#roadmap {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: var(--size-2) auto;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+.grid-roadmap {
+  align-items: center;
+  display: grid;
+  gap: var(--size-2);
+  grid-template-columns: 1fr 6fr;
+  padding: var(--size-2) var(--size-7);
+}
+
+.road-right {
+  display: flex;
+  justify-content: end;
+}
+
+.road-right li {
+  border: 1px solid grey;
+  font-size: 1vw;
+  margin-left: 5px;
+  padding: 10px;
+}
