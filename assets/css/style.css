@@ -41,7 +41,21 @@ ul {
 
 li {
   display: inline-block;
+  font-size: 1vw;
   margin-left: var(--size-2);
+}
+
+h1 {
+  font-size: 3.5vw;
+}
+
+h2 {
+  font-size: var(--size-9);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1vw;
 }
 
 .container {
@@ -107,9 +121,41 @@ header {
   justify-content: end;
 }
 
+.road-right h1 {
+  display: inline-block;
+}
+
 .road-right li {
   border: 1px solid grey;
-  font-size: 1vw;
   margin-left: 5px;
   padding: 10px;
+}
+
+/* about-me styling */
+
+#about-me {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+.grid-about {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+  padding: var(--size-2) var(--size-7);
+}
+
+.about-top h2 {
+  display: inline-block;
+}
+
+.about-bottom {
+  font-size: var(--size-2);
+}
+
+.about-bottom p + p {
+  margin-top: var(--size-2);  
 }
