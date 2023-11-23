@@ -75,7 +75,7 @@ h4 {
   padding: var(--size-2) var(--size-7);
 }
 
-/* header styling */
+/* HEADER styling */
 
 header {
   align-items: center;
@@ -85,13 +85,13 @@ header {
   border: 1px solid grey; /* TEMPORARY */
 }
 
-/* nav styling */
+/* NAV styling */
 
 .nav-right li {
   margin-left: var(--size-2);
 }
 
-/* under-header styling */
+/* UNDER-HEADER styling */
 
 #under-header {
   align-items: center;
@@ -107,7 +107,7 @@ header {
   border: 1px solid grey; /* TEMPORARY */
 }
 
-/* roadmap styling */
+/* ROADMAP styling */
 
 #roadmap {
   align-items: center;
@@ -131,7 +131,7 @@ header {
   padding: 10px;
 }
 
-/* about-me styling */
+/* ABOUT-ME styling */
 
 #about-me {
   align-items: center;
@@ -161,7 +161,7 @@ header {
   margin-top: var(--size-2);  
 }
 
-/* work styling */
+/* WORK styling */
 
 #work {
   align-items: center;
@@ -304,4 +304,37 @@ header {
 .work-5 figure {
   background: url("../images/on-my-own.png") no-repeat top;
   background-size: cover;
+}
+
+/* FOOTER styling */
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: var(--size-2) auto;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+.flex-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--size-2);
+  padding: var(--size-2) var(--size-7);
+}
+
+/* .footer-left {
+} */
+
+/* .footer-center {
+} */
+
+/* .footer-right {
+} */
+
+.footer-right li {
+  border: 1px solid grey;
+  margin-left: 10px;
+  padding: 10px;
 }
