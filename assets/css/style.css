@@ -58,6 +58,11 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .container {
   width: 66.66%;
   border: 1px solid red; /* TEMPORARY */
@@ -132,6 +137,7 @@ header {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin: var(--size-2) auto;
   border: 1px solid grey; /* TEMPORARY */
 }
 
@@ -148,9 +154,154 @@ header {
 }
 
 .about-bottom P {
-  font-size: var(--size-2);
+  font-size: var(--size-2); 
 }
 
 .about-bottom p + p {
   margin-top: var(--size-2);  
+}
+
+/* work styling */
+
+#work {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: var(--size-2) auto;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+.flex-work {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+  padding: var(--size-2) var(--size-7);
+}
+
+.grid-work {
+  display: grid;
+  gap: var(--size-2);
+  grid-template-rows: repeat(10, 6.25rem);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "work-1 work-1"
+    "work-1 work-1"
+    "work-1 work-1"
+    "work-1 work-1"
+    "work-2 work-3"
+    "work-2 work-3"
+    "work-2 work-3"
+    "work-4 work-5"
+    "work-4 work-5"
+    "work-4 work-5";
+  width: 100% ;
+}
+
+/* grid-big-child styling */
+
+.grid-big-child {
+  width: 100%;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+.grid-big-child figure {
+  width: 100%;
+  height: 80%;
+}
+
+.grid-big-child div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-2) var(--size-2);
+  height: 20%;
+}
+
+.grid-big-child li {
+  border: 1px solid grey;
+  margin-left: 10px;
+  padding: 10px var(--size-2);
+}
+
+/* grid-small-child styling */
+
+.grid-small-child {
+  width: 100%;
+  border: 1px solid grey; /* TEMPORARY */
+}
+
+.grid-small-child figure {
+  width: 100%;
+  height: 75%;
+}
+
+.grid-small-child div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-2) var(--size-2);
+  height: 25%;
+}
+
+.grid-small-child li {
+  border: 1px solid grey;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 0.5rem var(--size-2);
+}
+
+/* work-1 styling */
+
+.work-1 {
+  grid-area: work-1;
+}
+
+.work-1 figure {
+  background: url("../images/code-refactor.png") no-repeat top;
+  background-size: cover;
+}
+
+/* work-2 styling */
+
+.work-2 {
+  grid-area: work-2;
+}
+
+.work-2 figure {
+  background: url("../images/furniture.png") no-repeat top;
+  background-size: cover;
+}
+
+/* work-3 styling */
+
+.work-3 {
+  grid-area: work-3;
+}
+
+.work-3 figure {
+  background: url("../images/figma-one.png") no-repeat top;
+  background-size: cover;
+}
+
+/* work-4 styling */
+
+.work-4 {
+  grid-area: work-4;
+}
+
+.work-4 figure {
+  background: url("../images/jakes-eatery.png") no-repeat top;
+  background-size: cover;
+}
+
+/* work-5 styling */
+
+.work-5 {
+  grid-area: work-5;
+}
+
+.work-5 figure {
+  background: url("../images/on-my-own.png") no-repeat top;
+  background-size: cover;
 }
