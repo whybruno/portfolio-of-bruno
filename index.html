@@ -12,16 +12,16 @@
 </body>
   <header>
     <div class="container">
-      <nav class="row">
+      <nav class="row border">
         <div class="nav-left">
           <h3>BRUNO SILVA</h3>
         </div><!-- end of nav-left -->
         <div class="nav-right">
           <ul>
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>RESUME</li>
-            <li>CONTACT ME</li>
+            <a href="#about-me"><li>ABOUT</li></a>
+            <a href="#work"><li>WORK</li></a>
+            <a href="#"><li>RESUME</li></a>
+            <a href="#contact-me"><li class="nav-buttom">CONTACT-ME</li></a>
           </ul>
         </div><!-- end of nav-right -->
       </nav><!-- end of nav -->
@@ -43,7 +43,7 @@
 
   <section id="under-header">
     <div class="container">
-      <div class="row">
+      <div class="row space-between">
         <div class="under-left">
           <figure alt="bruno silva profile image"></figure>
         </div><!-- end of under-left -->
@@ -55,20 +55,20 @@
   </section><!-- end of under-header -->
 
   <section id="roadmap">
-    <div class="container">
+    <div class="container border">
       <div class="flex-roadmap">
         <div class="road-left">
           <h3>ROADMAP</h3>
         </div><!-- end of road-left -->
         <div class="road-right">
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>GIT</li>
-            <li>GITHUB</li>
-            <li>BOOTSTRAP</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
+            <li class="done">HTML</li>
+            <li class="done">CSS</li>
+            <li class="done">GIT</li>
+            <li class="done">GITHUB</li>
+            <li class="not-done">BOOTSTRAP</li>
+            <li class="not-done">JAVASCRIPT</li>
+            <li class="not-done">REACT</li>
           </ul>
         </div><!-- end of road-right -->
       </div><!-- end of flex-roadmap -->
@@ -76,7 +76,7 @@
   </section><!-- end of roadmap -->
 
   <section id="about-me">
-    <div class="container">
+    <div class="container border">
       <div class="flex-about">
         <div class="about-top">
           <h2>#ABOUT-ME</h2>
@@ -90,7 +90,7 @@
   </section><!-- end of about-me -->
 
   <section id="work">
-    <div class="container">
+    <div class="container border">
       <div class="flex-work">
         <div class="work-top">
           <h2>#WORK</h2>
@@ -99,7 +99,7 @@
           <div class="work-1 grid-big-child">
             <figure alt="work-1"></figure>
             <div>
-              <h3>CODE REFACTOR</h3>
+              <h4>CODE REFACTOR</h4>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -156,19 +156,19 @@
   </section><!-- end of work -->
 
   <footer id="contact-me">
-    <div class="container">
+    <div class="container border">
       <div class="flex-footer">
         <div class="footer-left">
           <h3>CONTACT ME</h3>
         </div><!-- end of footer-left -->
         <div class="footer-center">
-          <p>WHYBRUNO.DEV@GMAIL.COM</p>
+          <p>whybruno.dev@gmail.com</p>
         </div><!-- end of footer-center -->
         <div class="footer-right">
           <ul>
-            <li>X</li>
-            <li>X</li>
-            <li>X</li>
+            <li><a href=""><img src="./assets/images/github-white.png" alt="icon to github"></a></li>
+            <li><a href=""><img src="./assets/images/linkedin-white.png" alt="icon to linkedin"></a></li>
+            <li><a href=""><img src="./assets/images/twitter-white.png" alt="icon to twitter"></a></li>
           </ul>
         </div><!-- end of footer-right -->
       </div><!-- end of flex-footer -->
