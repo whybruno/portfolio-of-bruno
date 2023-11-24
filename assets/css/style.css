@@ -420,6 +420,7 @@ footer {
 
 .footer-center {
   letter-spacing: 1px;
+  font-size: 1.25rem;
 }
 
 .footer-right li {
@@ -433,6 +434,10 @@ footer {
   
   .road-right li {
     padding: 10px;
+  }
+
+  .footer-center {
+    font-size: 1rem;
   }
 }
 
@@ -516,10 +521,6 @@ footer {
 
   /* FOOTER styling*/
 
-  .footer-center {
-    font-size: 2svw;
-  }
-
   .footer-right li {
     margin-left: 10px;
     padding: 0;
@@ -574,7 +575,7 @@ footer {
   }
 
   .footer-center {
-    font-size: 2.5svw;
+    font-size: 1rem;
   }
 }
 
@@ -611,5 +612,11 @@ footer {
   /* ROADMAP Styling */
   .road-right li {
     padding: 10px 7.5px;
+  }
+
+  /* FOOTER Styling */
+
+  .footer-center {
+    font-size: 0.75rem;
   }
 }
