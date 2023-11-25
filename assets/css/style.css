@@ -147,9 +147,38 @@ li .nav-buttom:hover {
   transform: translate(0, -5px);
 }
 
+/* MENU-ICON styling */
+
+#hidden-icon {
+  display: none;
+}
+
+.icon-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: var(--sen-color);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
 /* HIDDEN-MENU styling */
 
-#hidden-menu {
+#menu-icon {
   display: none;
 }
 
@@ -162,15 +191,21 @@ li .nav-buttom:hover {
 
 .flex-hidden {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0 var(--size-7);
   width: 100%;
+  background-color: #1a1a1a;
 }
 
 .flex-hidden > p {
   font-size: 2.25vw;
   padding: var(--size-2) 0;
   text-align: center;
+}
+
+.flex-hidden p:hover {
+  background-color: #1f1f1f;
 }
 
 /* UNDER-HEADER styling */
@@ -558,6 +593,10 @@ footer {
 
   .nav-right {
     display: none;
+  }
+  
+  #menu-icon {
+    display: block;
   }
 
   /* ABOUT-ME styling */
