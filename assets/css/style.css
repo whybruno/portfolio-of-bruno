@@ -599,6 +599,25 @@ footer {
   .road-right li {
     padding: 10px 7.5px;
   }
+
+  /* FOOTER Styling */
+
+  .flex-footer {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    display: block;
+  }
+
+  .footer-center {
+    font-size: 3svw;
+  }
+
+  .footer-right img {
+    width: 75%;
+    height: 75%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -612,11 +631,5 @@ footer {
   /* ROADMAP Styling */
   .road-right li {
     padding: 10px 7.5px;
-  }
-
-  /* FOOTER Styling */
-
-  .footer-center {
-    font-size: 0.75rem;
   }
 }
