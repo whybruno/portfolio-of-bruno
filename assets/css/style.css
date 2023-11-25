@@ -79,7 +79,7 @@ a {
 }
 
 .border {
-  border: 2px solid var(--sec-color);
+  border: 1px solid var(--sec-color);
 }
 
 .done {
@@ -230,7 +230,6 @@ li .nav-buttom:hover {
   display: flex;
   justify-content: center;
   margin: var(--size-2) auto;
-  /* border: 1px solid grey; TEMPORARY */
 }
 
 .flex-about {
@@ -260,7 +259,6 @@ li .nav-buttom:hover {
   display: flex;
   justify-content: center;
   margin: var(--size-2) auto;
-  /* border: 1px solid grey; TEMPORARY */
 }
 
 .flex-work {
@@ -293,7 +291,7 @@ li .nav-buttom:hover {
 /* grid-big-child styling */
 
 .grid-big-child {
-  border: 2px solid var(--qua-color);
+  border: 1px solid var(--qua-color);
   width: 100%;
 }
 
@@ -304,7 +302,7 @@ li .nav-buttom:hover {
 
 .grid-big-child div {
   align-items: center;
-  border-top: 2px solid var(--qua-color);
+  border-top: 1px solid var(--qua-color);
   display: flex;
   justify-content: space-between;
   padding: var(--size-2);
@@ -312,7 +310,7 @@ li .nav-buttom:hover {
 }
 
 .grid-big-child li {
-  border: 2px solid var(--sen-color);
+  border: 1px solid var(--sen-color);
   font-size: 1vw;
   margin-left: 10px;
   padding: 10px var(--size-2);
@@ -321,7 +319,7 @@ li .nav-buttom:hover {
 /* grid-small-child styling */
 
 .grid-small-child {
-  border: 2px solid var(--qua-color);
+  border: 1px solid var(--qua-color);
   width: 100%;
 }
 
@@ -332,7 +330,7 @@ li .nav-buttom:hover {
 
 .grid-small-child div {
   align-items: center;
-  border-top: 2px solid var(--qua-color);
+  border-top: 1px solid var(--qua-color);
   display: flex;
   justify-content: space-between;
   padding: var(--size-2);
@@ -340,7 +338,7 @@ li .nav-buttom:hover {
 }
 
 .grid-small-child li {
-  border: 2px solid var(--sen-color);
+  border: 1px solid var(--sen-color);
   font-size: 1vw;
   margin-left: 10px;
   padding: 0.5rem var(--size-2);
@@ -611,12 +609,12 @@ footer {
   }
 
   .footer-center {
-    font-size: 3svw;
+    font-size: 0.75rem;
   }
 
   .footer-right img {
     width: 75%;
-    height: 75%;
+    width: 75%;
   }
 }
 
