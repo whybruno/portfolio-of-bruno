@@ -4,9 +4,9 @@
 //   x.classList.toggle("change");
 // }
 
-var menuButton = document.getElementById("menu-icon");
-var links = document.getElementsByClassName('nav-link');
-var menu = document.getElementById("hidden-menu");
+let menuButton = document.getElementById("menu-icon");
+let links = document.getElementsByClassName('nav-link');
+let menu = document.getElementById("hidden-menu");
 
 // hidden-menu display change
 
