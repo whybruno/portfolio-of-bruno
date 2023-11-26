@@ -147,7 +147,7 @@ nav {
 
 /* MENU-ICON styling */
 
-#hidden-icon {
+#menu-icon {
   display: none;
 }
 
@@ -176,7 +176,7 @@ nav {
 
 /* HIDDEN-MENU styling */
 
-#menu-icon {
+#hidden-menu {
   display: none;
 }
 
