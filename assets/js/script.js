@@ -1,9 +1,3 @@
-// menu-icon transition effect
-
-// function myFunction(x) {
-//   x.classList.toggle("change");
-// }
-
 let menuButton = document.getElementById("menu-icon");
 let links = document.getElementsByClassName('nav-link');
 let menu = document.getElementById("hidden-menu");
@@ -26,7 +20,7 @@ for (const link of links) {
   });
 }
 
-// // hidden-menu after single nav-link is clicked
+// hidden-menu after single nav-link is clicked
 
 // menuItem[0].addEventListener('click', function onClick() {
 //   if (menu.style.display === "block") {
@@ -34,6 +28,11 @@ for (const link of links) {
 //   }
 // });
 
+// menu-icon transition effect
+
+// function myFunction(x) {
+//   x.classList.toggle("change");
+// }
 
 
 

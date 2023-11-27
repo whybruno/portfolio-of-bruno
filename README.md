@@ -1,6 +1,6 @@
 # :full_moon: About The Project
 
-**Portfolio of Bruno** was born from a clean wireframe Artboard in Adobe Xd, with its responsive web design created by me following some acceptance criteria requested in this week's challenge at the **edX Front-End Web Development Bootcamp**.
+**Portfolio of Bruno** was designed by me from a clean wireframe artboard in Adobe Xd to be a responsive web design, following some acceptance criteria requested in this week's challenge at the **edX Front-End Web Development Bootcamp**.
 
 # :waxing_gibbous_moon: Features
 
@@ -10,6 +10,8 @@
 # :first_quarter_moon: Screenshot
 
 ![screenshot of the portfolio of bruno](./assets/images/screenshot.png)
+
+![screenshot of the wireframe](./assets/images/wireframe.png)
 
 # :waxing_crescent_moon: Acceptance Criteria
 
